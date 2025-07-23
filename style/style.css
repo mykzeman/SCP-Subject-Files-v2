@@ -1,0 +1,102 @@
+body {
+    flex-direction: column;
+    display: flex;
+    justify-items: start;
+    
+ }
+header {
+background-color: rgb(242, 242, 242);
+border: 1px transparent;
+border-radius: 10px;
+margin-top:1% ;
+text-align: center;
+}
+section {
+    background-color: rgb(158, 158, 158);
+    border: 1px solid ;
+    margin-top:1% ;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.5% ;
+   
+    }
+    code {color: #000;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #ffffff;
+        padding: 0.5%;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(154, 151, 151);
+        border: 1px transparent; ;
+        margin-top:1% ;
+        color: #e2e2e2;
+        border-radius: 10px;
+        text-align: center;
+        height: 10vh;
+      
+        
+    }
+    a {
+        color: #d9d9d9;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+        font-weight: bold;
+        font-style: italic;
+        color: #ffffff;
+    }
+    * {
+        box-sizing: border-box;
+        font-family: "Tahoma", sans-serif;
+        padding: 0;
+        
+    }
+    img {
+        width: 70%;
+        height: auto;
+    }
+header, section, nav {
+  box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.2);
+}
+h3 {
+    color: #000000;
+    text-align: center;
+    padding: 1%;
+}     
+section>p {
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 0.5%;
+}
+strong{
+    font-weight: 400;
+    font-style: italic;
+}
+#container{
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.2);
+}
+section[id^="scp-"]{
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.2) ;
+    background-color: #888;
+}
+button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}

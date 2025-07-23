@@ -1,0 +1,35 @@
+[
+    {
+        "name":"scp-002",
+        "class":"Euclid",
+        "description":"SCP-002 is a fleshy, tumor-like growth about 60 m³ in size. It has an iron hatch leading to an interior resembling a small, low-rent apartment. The room contains furniture made from human biological materials like bone and hair, each with unique DNA fragments. A window is present inside but not visible outside.",
+        "containment":"SCP-002 must stay connected to a power supply to remain in a recharging state. If power fails, the area must be evacuated, and an emergency barrier closed. After power is restored, X-ray and UV light bursts must be used before reconnecting it. The containment area must have negative air pressure. Teams of at least two must stay within 20 meters, maintaining physical contact to counteract possible perception distortions."
+    },
+    {
+        "name"  :"scp-003",
+        "class" :"Euclid",
+        "description":"SCP-003 consists of two related components: SCP-003-1 and SCP-003-2. SCP-003-1 is made of chitin, hair, and nails of unknown origin, resembling a computer motherboard. It predates modern circuit boards by thousands of years and is considered sentient but not actively dangerous under normal conditions.",
+        "containment":"SCP-003 must stay above 35°C. If power fails and it grows, personnel must use body heat to stabilize it. No complex organisms can touch it. Staff must be checked for parasites and sterilized after contact. SCP-003-1 stays in SCP-003-2 unless in an emergency. Rune changes must be reported, and power must stay on."
+
+    },
+    {
+        "name":"scp-004",
+        "class":"Euclid",
+        "description":"SCP-004 consists of an old wooden barn door (SCP-004-1) and a set of twelve rusted steel keys (SCP-004-2 through SCP-004-13). The door itself is the entrance to an abandoned factory in [DATA EXPUNGED].",
+        "containment":"SCP-004-2 to -13 must not leave the site without two Level 4 personnel. No other SCP-004 components should go through SCP-004-1. If containment is breached, the keys must be secured before Site 62’s warhead is activated. Unauthorized key removal results in termination. Level 1 clearance allows basic access, while Level 4 is needed for key use."
+    },
+    {
+        "name":"scp-005",
+        "class":"Safe",
+        "description":"In appearance, SCP-005 resembles an ornate key, displaying the characteristics of a typical mass produced key used in the 1920s. The key was discovered when a civilian used it to infiltrate a high security facility. SCP-005 seems to have the unique ability to open any and all forms of lock (See Appendix A), be they mechanical or digital, with relative ease.",
+        "containment":"SCP-005 poses no immediate risk in any direct sense. Even so, its unique functions require special measures be taken to restrict access and manipulation of the object. Approval of at least one (1) Level 4 personnel is required for the removal of the object from its containment area."
+    },
+
+        {
+            "name":"scp-006",
+            "class":"Safe",
+            "description":"SCP-006 is a small spring near Astrakhan, secured in 1991 and disguised as a chemical factory. Its water, identified as mineral water in 1902, has powerful healing properties. It regenerates DNA, boosts cell growth, enhances tissue repair, and strengthens the immune system. It destroys harmful bacteria and viruses, affects primates like humans, but has little impact on reptiles and birds.",
+            "containment":"SCP-006 requires secrecy, with personnel wearing modified suits and undergoing specific briefings. Procedures are under strict surveillance, and any liquid collected must be approved by O5 personnel. Contact with SCP-006 or its liquid leads to termination after study, with incineration as the preferred method."
+        }
+
+]
