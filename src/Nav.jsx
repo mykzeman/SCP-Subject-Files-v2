@@ -1,38 +1,19 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-
-function Nav() {
-    const [scpData, setScpData] = useState([]);
-
-    useEffect(() => {
-        fetch('https://raw.githubusercontent.com/mykzeman/SCP-Subject-Files-v2/main/data.json')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.json();
-            })
-            .then(data => setScpData(data))
-            .catch(error => console.error('Fetch failed:', error));
-    }, []);
-
-    return (
+function Nav({scps,onselect}) {
+ return (
         <>
             {/* Navbar */}
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav className=" navbar-dark bg-dark">
                 <a className="navbar-brand" href="/">SCP DATA</a>
+                          {/* Render fetched data as links */}
+            <ul className="d-flex flex-row justify-content-center list-unstyled mx-auto text-light">
+                {scps.map((scp,i)=>(  <li key={i} onClick={()=>onselect(scp)} className="navbar-item text-uppercase mx-3"
+                    >{scp.name}</li>)
+                  
+                )}
+            </ul>
             </nav>
 
-            {/* Render fetched data as links */}
-            <ul>
-                {scpData.map((scp, index) => (
-                    <li key={index}>
-                        <Link to={`/scp/${index}`} state={scp}>
-                            {scp.name || `SCP-${index}`}
-                        </Link>
-                    </li>
-                ))}
-            </ul>
+  
         </>
     );
 }

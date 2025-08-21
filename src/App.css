@@ -1,6 +1,16 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+}
+p {
+  font-size: small;
+}
+li {
+  font-size: 10pt;
+}
+li:hover {
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: italic;
+  animation:1ms cubic-bezier(0.075, 0.82, 0.165, 1) 1s ease-in-out ;
 }
