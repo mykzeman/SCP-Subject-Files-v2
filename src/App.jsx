@@ -1,4 +1,4 @@
-// App.js (or any main component in your React app)
+
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -6,10 +6,10 @@ import Nav from "./Nav.jsx";
 import Page from "./Page.jsx";
 import { useEffect, useState } from "react";
 function getData(){
- return fetch('https://raw.githubusercontent.com/mykzeman/SCP-Subject-Files-v2/main/data.json')
+ return fetch('https://raw.githubusercontent.com/mykzeman/SCP-Subject-Files-v2/main/data.json') 
             .then(response => {
-                if (!response) {
-                    throw new Error('Network response was not ok');
+                if (!response.ok) {
+                  throw new Error("uh oh,scp 404 has escaped")
                 }
                 return response.json();
             })
